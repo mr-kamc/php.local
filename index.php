@@ -7,5 +7,5 @@ $users = \App\Models\User::findAll();
 var_dump($users);
 */
 
-$users = \App\Models\User::findById(2);
-var_dump($users);
+$news = \App\Models\News::findLast(1);
+var_dump($news);

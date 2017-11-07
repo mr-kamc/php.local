@@ -9,7 +9,7 @@ use App\Model;
 
 class User extends Model
 {
-    const TABLE= 'user';
+    const TABLE = 'user';
     public $id;
     public $name;
     public $email;
